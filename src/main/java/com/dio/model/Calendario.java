@@ -2,7 +2,7 @@ package com.dio.model;
 
 import lombok.*;
 
-import javax.persistence.ManyToMany;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -10,9 +10,9 @@ import javax.persistence.ManyToMany;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class Localidade {
+public class Calendario {
     private Long id;
-    @ManyToMany
-    private NivelAcesso nivelAcesso;
+    private TipoData tipoData;
     private String descricao;
+    private LocalDateTime dataEspecial;
 }

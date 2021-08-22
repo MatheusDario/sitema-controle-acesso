@@ -2,17 +2,14 @@ package com.dio.model;
 
 import lombok.*;
 
-import javax.persistence.ManyToMany;
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class Localidade {
-    private Long id;
-    @ManyToMany
-    private NivelAcesso nivelAcesso;
+public class Ocorrencia {
+    private long id;
+    private String nome;
     private String descricao;
 }
