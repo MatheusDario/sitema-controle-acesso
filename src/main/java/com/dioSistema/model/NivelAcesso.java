@@ -1,6 +1,10 @@
 package com.dio.model;
 
 import lombok.*;
+import org.hibernate.envers.Audited;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Getter
 @Setter
@@ -8,7 +12,10 @@ import lombok.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class CategoriaUsuario {
+@Entity
+@Audited
+public class NivelAcesso {
+    @Id
     private Long id;
     private String descricao;
 }

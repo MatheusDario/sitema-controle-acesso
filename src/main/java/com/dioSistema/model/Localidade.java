@@ -2,7 +2,9 @@ package com.dio.model;
 
 import lombok.*;
 
-import javax.persistence.ManyToMany;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Getter
 @Setter
@@ -10,9 +12,11 @@ import javax.persistence.ManyToMany;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
+@Entity
 public class Localidade {
+    @Id
     private Long id;
-    @ManyToMany
+    @ManyToOne
     private NivelAcesso nivelAcesso;
     private String descricao;
 }
