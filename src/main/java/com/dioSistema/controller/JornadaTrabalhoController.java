@@ -1,7 +1,7 @@
 package com.dioSistema.controller;
 
-import com.dio.model.JornadaTrabalho;
-import com.dio.service.JornadaService;
+import  com.dioSistema.model.JornadaTrabalho;
+import com.dioSistema.service.JornadaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

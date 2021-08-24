@@ -1,4 +1,4 @@
-package com.dio.model;
+package  com.dioSistema.model;
 
 import lombok.*;
 

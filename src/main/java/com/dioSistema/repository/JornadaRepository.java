@@ -1,6 +1,6 @@
-package com.dio.repository;
+package com.dioSistema.repository;
 
-import com.dio.model.JornadaTrabalho;
+import  com.dioSistema.model.JornadaTrabalho;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

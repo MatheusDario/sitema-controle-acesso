@@ -1,7 +1,7 @@
-package com.dio.service;
+package com.dioSistema.service;
 
-import com.dio.model.JornadaTrabalho;
-import com.dio.repository.JornadaRepository;
+import  com.dioSistema.model.JornadaTrabalho;
+import  com.dioSistema.repository.JornadaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
